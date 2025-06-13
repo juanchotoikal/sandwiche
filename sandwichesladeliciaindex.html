@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwiches Deliciosos | ¡Pide el tuyo!</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF9E6;
+            color: #333;
+        }
+        
+        header {
+            background-color: #FF6B6B;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        
+        /* Imagen del sandwich */
+        .sandwich-img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+        }
+        
+        /* Botón de llamada a la acción */
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        
+        /* Sección de beneficios */
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        
+        .benefit {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            margin: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡SANDWICHES DELICIOSOS!</h1>
+        <p>Hechos con ingredientes frescos y mucho amor ❤️</p>
+    </header>
+    
+    <div class="container">
+        <h2>Prueba nuestro <span style="color: #FF6B6B;">Sandwich Especial</span></h2>
+        <img src="sandwiche1.jfif>
+        <p>¡Crujiente, jugoso y lleno de sabor! Perfecto para cualquier momento del día.</p>
+        
+        <button class="cta-button" id="orderButton">¡PIDE AHORA!</button>
+        
+        <div class="benefits">
+            <div class="benefit">
+                <h3>🍞 Frescos</h3>
+                <p>Pan recién horneado todos los días.</p>
+            </div>
+            <div class="benefit">
+                <h3>🥑 Ingredientes Premium</h3>
+                <p>Calidad que se nota.</p>
+            </div>
+            <div class="benefit">
+                <h3>🚀 Entrega Rápida</h3>
+                <p>¡En menos de 30 minutos!</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Sandwiches Deliciosos. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script>
+        // Interacción al hacer clic en el botón
+        document.getElementById('orderButton').addEventListener('click', function() {
+            alert('¡Gracias por tu pedido! Nos pondremos en contacto contigo pronto. 😊');
+        });
+    </script>
+</body>
+</html>
